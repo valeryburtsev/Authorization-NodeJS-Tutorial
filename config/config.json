@@ -1,0 +1,31 @@
+{
+  "development": {
+    "username": "valeryburtsev",
+    "password": "",
+    "database": "test",
+    "host": "127.0.0.1",
+    "port": "5432",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "useUTC": false
+    },
+    "timezone":"+00:00",
+    "operatorsAliases": "0"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": "0"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": "0"
+  }
+}
